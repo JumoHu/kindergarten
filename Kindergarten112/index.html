@@ -19,53 +19,29 @@
             box-shadow: 0px 0px 10px rgba(0,0,0,0.3);
         }
 
-            .room-container .cover {
-                height: 150px;
-                position: relative;
-                background-size: cover;
-                background-position: center center;
-            }
+        .room-container .info {
+            padding: 10px;
+        }
 
-                .room-container .cover h3 {
-                    position: absolute;
-                    bottom: 10px;
-                    font-size: 20px;
-                    padding: 5px 15px;
-                    background-color: #fff;
-                }
-
-            .room-container .info {
-                padding: 10px;
-            }
-
-                .room-container .info h5 {
-                    font-size: 12px;
-                }
-
-                .room-container .info .final_price {
-                    float: right;
-                    color: #DB4343;
-                }
-
-                    .room-container .info .final_price:after {
-                        content: "$";
-                    }
+        .room-container .info h5 {
+            font-size: 12px;
+        }
     </style>
 </head>
 <body>
     <div id="app">
         <div class="container">
             <div class="row">
-                <div class="col-sm-3">
+                <div class="col-xl-3">
                     <h1>歸真櫻花班</h1>
                     <hr />
                 </div>
-                <div class="col-sm-9">
+                <div class="col-xl-9">
                     <h1>學校生活</h1>
                     <hr />
                     <div class="row">
-                        <div class="col-sm-4" v-for="photo in album">
-                            <room :photo_data="photo" :hotel_discount="discount"></room>
+                        <div class="col-xl-4" v-for="photo in album">
+                            <room :photo_data="photo"></room>
                         </div>
                     </div>
                 </div>
@@ -170,29 +146,16 @@
         const vm = Vue.createApp({
             data() {
                 return {
-                    album: album,
-                    discount: 0.9
+                    album: album
                 }
             }
         });
 
         vm.component('room', {
-            template: '<div class="col-room"><div class="room-container"><div class="cover"><p v-html="photo_data.frameURL"></p></div><div class="info"><h5>{{ photo_data.Date }}</h5><h5>{{ photo_data.Memo }}</h5><h5>{{ photo_data.FileName }}</h5></div></div></div>',
-            props: ['photo_data', 'hotel_discount'],
+            template: '<div class="col-room"><div class="room-container"><p v-html="photo_data.frameURL"></p><div class="info"><h5>{{ photo_data.Date }}</h5><h5>{{ photo_data.Memo }}</h5><h5>{{ photo_data.FileName }}</h5></div></div></div>',
+            props: ['photo_data'],
             computed: {
-                final_discount: function () {
-                    return this.photo_data.discount * this.hotel_discount;
-                },
-                final_discount_show: function () {
-                    return parseInt(this.final_discount * 100);
-                },
-                final_price: function () {
-                    return parseInt(this.photo_data.price * this.photo_data.discount * this.hotel_discount);
-                },
-                bg_css: function () {
-                    /*return { "background-image": "url('" + this.room_data.cover + "')" };*/
-                    return this.photo_data.cover;
-                }
+                
             }
         });
 
