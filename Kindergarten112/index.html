@@ -586,11 +586,22 @@
         //var MM = (fullDate.getMonth() + 1) >= 10 ? (fullDate.getMonth() + 1) : ("0" + (fullDate.getMonth() + 1));
         //var dd = fullDate.getDate() < 10 ? ("0" + fullDate.getDate()) : fullDate.getDate();
         //var today = yyyy + "/" + MM + "/" + dd;
+        var url = location.href;
+        var keywd = "";
+        if (url.indexOf('?') != -1) {
+            var ary = url.split('?')[1].split('&');
+
+            for (i = 0; i <= ary.length - 1; i++) {
+                if (ary[i].split('=')[0] == 'keywd')
+                    keywd = ary[i].split('=')[1];
+            }
+
+        }
         const vm = Vue.createApp({
             data() {
                 return {
                     album: album,
-                    keywd: ''
+                    keywd: keywd
                 }
             },
             computed: {
