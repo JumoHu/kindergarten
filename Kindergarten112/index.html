@@ -36,7 +36,10 @@
                 <div class="col-xl-3">
                     <h1><img src="image/sakura.jpeg" width="50" />歸真櫻花班</h1>
                     <hr />
-                    <input type="text" v-model.lazy="keywd" v-debounce="300" placeholder="Keyword">
+                    <input type="text" v-model.lazy="keywd" placeholder="Keyword" v-model="keywd">
+                    <ul>
+                        <li v-for="memo in keywdlist"><a href="#" v-on:click="applykeywd(memo)">{{ memo }}</a></li>
+                    </ul>
                 </div>
                 <div class="col-xl-9">
                     <h1><img src="image/sakura.jpeg" width="50" />生活花絮</h1>
@@ -112,7 +115,7 @@
                 "URL": "https://drive.google.com/file/d/1dP5O2ze2QDajXHXjCcuCyfR3D79hVCe1/view?usp=sharing",
                 "FileName": "117.MTS",
                 "Class": "全校",
-                "Memo": "早晨8:10~8:30幼兒活動花絮",
+                "Memo": "早晨08:10~08:30活動花絮",
                 "Hashtag": "",
                 "frameURL": "<iframe src=\"https://drive.google.com/file/d/1dP5O2ze2QDajXHXjCcuCyfR3D79hVCe1/preview\" width=\"265\"></iframe>"
             },
@@ -121,7 +124,7 @@
                 "URL": "https://drive.google.com/file/d/12ytko4Mj77dGUL9Qmwr-qQ2ie4WY--pC/view?usp=sharing%E6%AD%B8%E7%9C%9F%E5%B9%BC%E5%85%92%E5%9C%92112%E5%B9%B48%E6%9C%888%E6%97%A5",
                 "FileName": "118.MTS",
                 "Class": "全校",
-                "Memo": "早晨8:10~8:30幼兒活動花絮",
+                "Memo": "早晨08:10~08:30活動花絮",
                 "Hashtag": "",
                 "frameURL": "<iframe src=\"https://drive.google.com/file/d/12ytko4Mj77dGUL9Qmwr-qQ2ie4WY--pC/preview\" width=\"265\"></iframe>"
             },
@@ -130,7 +133,7 @@
                 "URL": "https://drive.google.com/file/d/1hbthMrElZhWdHqD9cNWMw-RDfmlBK4tC/view?usp=sharing%E6%97%A9%E6%99%A88:10~8:30%E5%B9%BC%E5%85%92%E6%B4%BB%E5%8B%95%E8%8A%B1%E7%B5%AE-2",
                 "FileName": "119.MTS",
                 "Class": "全校",
-                "Memo": "早晨8:10~8:30幼兒活動花絮",
+                "Memo": "早晨08:10~08:30活動花絮",
                 "Hashtag": "",
                 "frameURL": "<iframe src=\"https://drive.google.com/file/d/1hbthMrElZhWdHqD9cNWMw-RDfmlBK4tC/preview\" width=\"265\"></iframe>"
             },
@@ -139,7 +142,7 @@
                 "URL": "https://drive.google.com/file/d/1SSgVAP0ry7Jt3taJY7TFtL5eI6CPNhcJ/view?usp=sharing",
                 "FileName": "120.MTS",
                 "Class": "全校",
-                "Memo": "早晨8:10~8:30幼兒活動花絮",
+                "Memo": "早晨08:10~08:30活動花絮",
                 "Hashtag": "",
                 "frameURL": "<iframe src=\"https://drive.google.com/file/d/1SSgVAP0ry7Jt3taJY7TFtL5eI6CPNhcJ/preview\" width=\"265\"></iframe>"
             },
@@ -148,7 +151,7 @@
                 "URL": "https://drive.google.com/file/d/1RZQQuzgzuSJZIxqR0ELuoURi5R6POQDb/view?usp=sharing",
                 "FileName": "121.MTS",
                 "Class": "全校",
-                "Memo": "早晨8:10~8:30幼兒活動花絮",
+                "Memo": "早晨08:10~08:30活動花絮",
                 "Hashtag": "",
                 "frameURL": "<iframe src=\"https://drive.google.com/file/d/1RZQQuzgzuSJZIxqR0ELuoURi5R6POQDb/preview\" width=\"265\"></iframe>"
             },
@@ -157,7 +160,7 @@
                 "URL": "https://drive.google.com/file/d/1pddW4x23oh3_1pXBsW_odtB-6QRqMRVv/view?usp=sharing-00124.MTS",
                 "FileName": "124.MTS",
                 "Class": "全校",
-                "Memo": "早晨8:10~8:30幼兒活動花絮",
+                "Memo": "早晨08:10~08:30活動花絮",
                 "Hashtag": "",
                 "frameURL": "<iframe src=\"https://drive.google.com/file/d/1pddW4x23oh3_1pXBsW_odtB-6QRqMRVv/preview\" width=\"265\"></iframe>"
             },
@@ -256,7 +259,7 @@
                 "URL": "https://www.facebook.com/100000130406313/videos/910942200479136/",
                 "FileName": "148.MTS",
                 "Class": "全校",
-                "Memo": "早晨8:10~8:30幼兒活動花絮",
+                "Memo": "早晨08:10~08:30活動花絮",
                 "Hashtag": "C4",
                 "frameURL": "<iframe src=\"https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2F100000130406313%2Fvideos%2F910942200479136%2F&show_text=false&width=560&t=0\" width=\"265\" style=\"border:none;overflow:hidden\" scrolling=\"no\" frameborder=\"0\" allowfullscreen=\"true\" allow=\"clipboard-write; encrypted-media; picture-in-picture; web-share\" allowFullScreen=\"true\"></iframe> "
             },
@@ -265,7 +268,7 @@
                 "URL": "https://www.facebook.com/100000130406313/videos/265910082875606/",
                 "FileName": "149.MTS",
                 "Class": "全校",
-                "Memo": "早晨8:10~8:30幼兒活動花絮",
+                "Memo": "早晨08:10~08:30活動花絮",
                 "Hashtag": "C4",
                 "frameURL": "<iframe src=\"https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2F100000130406313%2Fvideos%2F265910082875606%2F&show_text=false&width=560&t=0\" width=\"265\" style=\"border:none;overflow:hidden\" scrolling=\"no\" frameborder=\"0\" allowfullscreen=\"true\" allow=\"clipboard-write; encrypted-media; picture-in-picture; web-share\" allowFullScreen=\"true\"></iframe> "
             },
@@ -274,7 +277,7 @@
                 "URL": "https://www.facebook.com/100000130406313/videos/976959840297688/",
                 "FileName": "150.MTS",
                 "Class": "全校",
-                "Memo": "早晨8:10~8:30幼兒活動花絮",
+                "Memo": "早晨08:10~08:30活動花絮",
                 "Hashtag": "C4",
                 "frameURL": "<iframe src=\"https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2F100000130406313%2Fvideos%2F976959840297688%2F&show_text=false&width=560&t=0\" width=\"265\" style=\"border:none;overflow:hidden\" scrolling=\"no\" frameborder=\"0\" allowfullscreen=\"true\" allow=\"clipboard-write; encrypted-media; picture-in-picture; web-share\" allowFullScreen=\"true\"></iframe> "
             },
@@ -283,7 +286,7 @@
                 "URL": "https://www.facebook.com/100000130406313/videos/686710446696079/",
                 "FileName": "",
                 "Class": "歸真家長",
-                "Memo": "小提琴音 調音班 第一次學習",
+                "Memo": "家長小提琴調音班 第一次學習",
                 "Hashtag": "",
                 "frameURL": "<iframe src=\"https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2F100000130406313%2Fvideos%2F686710446696079%2F&show_text=false&width=560&t=0\" width=\"265\" style=\"border:none;overflow:hidden\" scrolling=\"no\" frameborder=\"0\" allowfullscreen=\"true\" allow=\"clipboard-write; encrypted-media; picture-in-picture; web-share\" allowFullScreen=\"true\"></iframe> "
             },
@@ -292,7 +295,7 @@
                 "URL": "https://www.facebook.com/100000130406313/videos/2578185025690139/",
                 "FileName": "151.MTS",
                 "Class": "全校",
-                "Memo": "早晨8:10~8:30幼兒活動花絮",
+                "Memo": "早晨08:10~08:30活動花絮",
                 "Hashtag": "C4",
                 "frameURL": "<iframe src=\"https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2F100000130406313%2Fvideos%2F2578185025690139%2F&show_text=false&width=560&t=0\" width=\"265\" style=\"border:none;overflow:hidden\" scrolling=\"no\" frameborder=\"0\" allowfullscreen=\"true\" allow=\"clipboard-write; encrypted-media; picture-in-picture; web-share\" allowFullScreen=\"true\"></iframe> "
             },
@@ -301,7 +304,7 @@
                 "URL": "https://drive.google.com/file/d/1BrFxUKSsnVm0h6yuhGFwdf_i_ItFcnrj/view?fbclid=IwAR0WOxKk04VgkzMHIxQxfQXyUmdKiCc575rMyCfZKyrwOn7i7jgBeTQnG3s",
                 "FileName": "155.MTS",
                 "Class": "櫻花",
-                "Memo": "早晨8:10~8:30幼兒活動花絮",
+                "Memo": "早晨08:10~08:30活動花絮",
                 "Hashtag": "C4",
                 "frameURL": "<iframe src=\"https://drive.google.com/file/d/1BrFxUKSsnVm0h6yuhGFwdf_i_ItFcnrj/preview\" width=\"265\"></iframe> "
             },
@@ -310,7 +313,7 @@
                 "URL": "https://drive.google.com/file/d/1OteyqTOjmbz6in9vsaHv1k2aHGzsK_Dn/view?fbclid=IwAR1XQueQoFGwy3qh7cu3GTIZj7u9qHLJXSE5Apxv_Rvy_nsqQKtwOAux99Y",
                 "FileName": "156.MTS",
                 "Class": "全校",
-                "Memo": "早晨8:10~8:30幼兒活動花絮",
+                "Memo": "早上進教室",
                 "Hashtag": "",
                 "frameURL": "<iframe src=\"https://drive.google.com/file/d/1OteyqTOjmbz6in9vsaHv1k2aHGzsK_Dn/preview\" width=\"265\"></iframe> "
             },
@@ -373,7 +376,7 @@
                 "URL": "https://drive.google.com/file/d/1MdKCEkjmdLpvrdCF52l1LNhruf_yS5bv/view?usp=sharing",
                 "FileName": "180.MTS  ",
                 "Class": "全校",
-                "Memo": "早晨8:10~8:30幼兒活動花絮",
+                "Memo": "早晨08:10~08:30活動花絮",
                 "Hashtag": "C4",
                 "frameURL": "<iframe src=\"https://drive.google.com/file/d/1MdKCEkjmdLpvrdCF52l1LNhruf_yS5bv/preview\" width=\"265\"></iframe> "
             },
@@ -382,7 +385,7 @@
                 "URL": "https://drive.google.com/file/d/1enqwAARBNg00kBhnECW5TIr7BWwYOZNb/view?usp=sharing",
                 "FileName": "181.MTS  ",
                 "Class": "全校",
-                "Memo": "早晨8:10~8:30幼兒活動花絮",
+                "Memo": "早晨08:10~08:30活動花絮",
                 "Hashtag": "C4",
                 "frameURL": "<iframe src=\"https://drive.google.com/file/d/1enqwAARBNg00kBhnECW5TIr7BWwYOZNb/preview\" width=\"265\"></iframe> "
             },
@@ -391,7 +394,7 @@
                 "URL": "https://drive.google.com/file/d/1IkzJ1_lS4t7rGiNAZe2pwrwAB5Ja5q05/view?usp=sharing",
                 "FileName": "182.MTS",
                 "Class": "全校",
-                "Memo": "早晨8:10~8:30幼兒活動花絮",
+                "Memo": "早晨08:10~08:30活動花絮",
                 "Hashtag": "C4",
                 "frameURL": "<iframe src=\"https://drive.google.com/file/d/1IkzJ1_lS4t7rGiNAZe2pwrwAB5Ja5q05/preview\" width=\"265\"></iframe> "
             },
@@ -464,7 +467,7 @@
                 "URL": "https://www.facebook.com/100000130406313/videos/1361676621452663/",
                 "FileName": "C0017",
                 "Class": "全校",
-                "Memo": "早晨08:10~08:30活動花絮",
+                "Memo": "早上進教室",
                 "Hashtag": "C4",
                 "frameURL": "<iframe src=\"https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2F100000130406313%2Fvideos%2F1361676621452663%2F&show_text=false&width=560&t=0\" width=\"265\" style=\"border:none;overflow:hidden\" scrolling=\"no\" frameborder=\"0\" allowfullscreen=\"true\" allow=\"clipboard-write; encrypted-media; picture-in-picture; web-share\" allowFullScreen=\"true\"></iframe>"
             },
@@ -473,7 +476,7 @@
                 "URL": "https://www.facebook.com/100000130406313/videos/1385408548718957/",
                 "FileName": "C0018",
                 "Class": "全校",
-                "Memo": "早晨08:10~08:30活動花絮",
+                "Memo": "早上進教室",
                 "Hashtag": "",
                 "frameURL": "<iframe src=\"https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2F100000130406313%2Fvideos%2F1385408548718957%2F&show_text=false&width=560&t=0\" width=\"265\" style=\"border:none;overflow:hidden\" scrolling=\"no\" frameborder=\"0\" allowfullscreen=\"true\" allow=\"clipboard-write; encrypted-media; picture-in-picture; web-share\" allowFullScreen=\"true\"></iframe>"
             },
@@ -491,7 +494,7 @@
                 "URL": "https://www.facebook.com/100000130406313/videos/334803138884286/",
                 "FileName": "C0020",
                 "Class": "全校",
-                "Memo": "早晨08:10~08:30活動花絮",
+                "Memo": "早上進教室",
                 "Hashtag": "C4",
                 "frameURL": "<iframe src=\"https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2F100000130406313%2Fvideos%2F334803138884286%2F&show_text=false&width=560&t=0\" width=\"265\" style=\"border:none;overflow:hidden\" scrolling=\"no\" frameborder=\"0\" allowfullscreen=\"true\" allow=\"clipboard-write; encrypted-media; picture-in-picture; web-share\" allowFullScreen=\"true\"></iframe>"
             },
@@ -518,7 +521,7 @@
                 "URL": "https://www.facebook.com/100000130406313/videos/643522777913542/",
                 "FileName": "",
                 "Class": "櫻花",
-                "Memo": "午睡",
+                "Memo": "睡午覺",
                 "Hashtag": "",
                 "frameURL": "<iframe src=\"https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2F100000130406313%2Fvideos%2F643522777913542%2F&show_text=false&width=560&t=0\" width=\"265\" style=\"border:none;overflow:hidden\" scrolling=\"no\" frameborder=\"0\" allowfullscreen=\"true\" allow=\"clipboard-write; encrypted-media; picture-in-picture; web-share\" allowFullScreen=\"true\"></iframe>"
             },
@@ -527,7 +530,7 @@
                 "URL": "https://scontent.ftpe4-1.fna.fbcdn.net/v/t39.30808-6/370829544_7279227288758212_5442787438925357378_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=730e14&_nc_ohc=qcZvXPIc3HMAX8C-5zr&_nc_ht=scontent.ftpe4-1.fna&oh=00_AfCFKu8l26eepsh3UAXj4vAeD8Xd5j0TbIke78-PxU0--w&oe=64F47B76",
                 "FileName": "",
                 "Class": "櫻花",
-                "Memo": "午睡照片",
+                "Memo": "睡午覺照片",
                 "Hashtag": "",
                 "frameURL": "<img src=\"https://scontent.ftpe4-1.fna.fbcdn.net/v/t39.30808-6/370829544_7279227288758212_5442787438925357378_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=730e14&_nc_ohc=qcZvXPIc3HMAX8C-5zr&_nc_ht=scontent.ftpe4-1.fna&oh=00_AfCFKu8l26eepsh3UAXj4vAeD8Xd5j0TbIke78-PxU0--w&oe=64F47B76\" width=\"265\" \"></img>"
             },
@@ -536,7 +539,7 @@
                 "URL": "https://www.facebook.com/100000130406313/videos/314572091227989/",
                 "FileName": "",
                 "Class": "櫻花",
-                "Memo": "午睡",
+                "Memo": "睡午覺",
                 "Hashtag": "C4",
                 "frameURL": "<iframe src=\"https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2F100000130406313%2Fvideos%2F314572091227989%2F&show_text=false&width=560&t=0\" width=\"265\" style=\"border:none;overflow:hidden\" scrolling=\"no\" frameborder=\"0\" allowfullscreen=\"true\" allow=\"clipboard-write; encrypted-media; picture-in-picture; web-share\" allowFullScreen=\"true\"></iframe>"
             },
@@ -545,7 +548,7 @@
                 "URL": "https://scontent.ftpe4-2.fna.fbcdn.net/v/t39.30808-6/371930337_7279227412091533_3671845306878405436_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=730e14&_nc_ohc=6N0C6rjoWDkAX-2LWrO&_nc_ht=scontent.ftpe4-2.fna&oh=00_AfCBu88Lk_gAcqScExivN-pVcRbVZJ7aTF4btvBluNNORg&oe=64F4983D",
                 "FileName": "",
                 "Class": "櫻花",
-                "Memo": "午睡照片",
+                "Memo": "睡午覺照片",
                 "Hashtag": "",
                 "frameURL": "<img src=\"https://scontent.ftpe4-2.fna.fbcdn.net/v/t39.30808-6/371930337_7279227412091533_3671845306878405436_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=730e14&_nc_ohc=6N0C6rjoWDkAX-2LWrO&_nc_ht=scontent.ftpe4-2.fna&oh=00_AfCBu88Lk_gAcqScExivN-pVcRbVZJ7aTF4btvBluNNORg&oe=64F4983D\" width=\"265\" \"></img>"
             },
@@ -554,7 +557,7 @@
                 "URL": "https://www.facebook.com/100000130406313/videos/982694939466167/",
                 "FileName": "",
                 "Class": "櫻花",
-                "Memo": "午睡",
+                "Memo": "睡午覺",
                 "Hashtag": "C4",
                 "frameURL": "<iframe src=\"https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2F100000130406313%2Fvideos%2F982694939466167%2F&show_text=false&width=560&t=0\" width=\"265\" style=\"border:none;overflow:hidden\" scrolling=\"no\" frameborder=\"0\" allowfullscreen=\"true\" allow=\"clipboard-write; encrypted-media; picture-in-picture; web-share\" allowFullScreen=\"true\"></iframe>"
             },
@@ -563,7 +566,7 @@
                 "URL": "https://scontent.ftpe4-2.fna.fbcdn.net/v/t39.30808-6/371862422_7279227295424878_4557773665938646139_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=730e14&_nc_ohc=cRf8d8Yi2xsAX80QhFP&_nc_ht=scontent.ftpe4-2.fna&oh=00_AfDK9KVE0lL-and3L6mh_0LGCkYAcnhu7AWw2p4eb0T25g&oe=64F37F58",
                 "FileName": "",
                 "Class": "櫻花",
-                "Memo": "午睡照片",
+                "Memo": "睡午覺照片",
                 "Hashtag": "",
                 "frameURL": "<img src=\"https://scontent.ftpe4-2.fna.fbcdn.net/v/t39.30808-6/371862422_7279227295424878_4557773665938646139_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=730e14&_nc_ohc=cRf8d8Yi2xsAX80QhFP&_nc_ht=scontent.ftpe4-2.fna&oh=00_AfDK9KVE0lL-and3L6mh_0LGCkYAcnhu7AWw2p4eb0T25g&oe=64F37F58\" width=\"265\" \"></img>"
             },
@@ -572,7 +575,7 @@
                 "URL": "https://www.facebook.com/100000130406313/videos/655213319888057/",
                 "FileName": "",
                 "Class": "櫻花",
-                "Memo": "午睡",
+                "Memo": "睡午覺",
                 "Hashtag": "C4",
                 "frameURL": "<iframe src=\"https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2F100000130406313%2Fvideos%2F655213319888057%2F&show_text=false&width=560&t=0\" width=\"265\" style=\"border:none;overflow:hidden\" scrolling=\"no\" frameborder=\"0\" allowfullscreen=\"true\" allow=\"clipboard-write; encrypted-media; picture-in-picture; web-share\" allowFullScreen=\"true\"></iframe> "
             }
@@ -593,8 +596,16 @@
                 filteredAlbum() {
                     const keywd = this.keywd.trim().toLowerCase();
                     return this.album.filter(photo => {
-                        return keywd.length > 0 && (photo.Date == keywd || photo.Hashtag.toLowerCase().includes(keywd));
+                        return keywd.length > 0 && (photo.Date == keywd || photo.Hashtag.toLowerCase().includes(keywd) || photo.Memo == keywd);
                     })
+                },
+                keywdlist() {
+                    return [...new Set(this.album.map(x => x.Memo))].sort();
+                }
+            },
+            methods: {
+                applykeywd: function (memo) {
+                    this.keywd = memo;
                 }
             }
         });
