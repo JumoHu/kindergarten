@@ -34,7 +34,7 @@
     <div id="app">
         <div class="container">
             <div class="row">
-                <div class="col-lg-3 col-8">
+                <div class="col-lg-3 col-12">
                     <h1><img src="image/sakura.jpeg" width="50" />歸真櫻花班</h1>
                     <hr />
                     <input type="text" v-model.lazy="keywd" placeholder="Keyword" v-model="keywd">
@@ -42,7 +42,7 @@
                         <li v-for="memo in keywdlist"><a href="#" v-on:click="applykeywd(memo)">{{ memo }}</a></li>
                     </ul>
                 </div>
-                <div class="col-lg-9 col-8">
+                <div class="col-lg-9 col-12">
                     <h1><img src="image/sakura.jpeg" width="50" />生活花絮</h1>
                     <hr />
                     <div class="row row-cols-auto">
