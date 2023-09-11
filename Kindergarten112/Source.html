@@ -12,21 +12,19 @@
     
 </head>
 <body>
-    <!--<audio controls autoplay>
-        <source src="112上-P00-抬頭-已配樂OK.m4a" type="audio/x-m4a" data-track-number="1">
-        <source src="112上-P01-使用說明-ok.m4a" type="audio/x-m4a" data-track-number="2">
-        <source src="112上-p02-德不孤必有鄰-ok.m4a" type="audio/x-m4a" data-track-number="3">
-        <source src="112上-P03-歸真園歌-朗讀+唱詞+唱譜.wav" type="audio/wav" data-track-number="4">
-    </audio>-->
-    <audio id="audioPlayer" controls>
-        <source src="112上-P00-抬頭-已配樂OK.m4a" type="audio/x-m4a">
-    </audio>
-    <ul id="playlist" class="list-group list-group-flush">
-        <li class="list-group-item list-group-item-action list-group-item-light"><a href="https://docs.google.com/uc?export=download&id=1tvCaDhIBBN_vkfLcLVVPQShlauhICQfO">112上-P00-抬頭-已配樂OK.m4a</a></li>
-        <li class="list-group-item list-group-item-action list-group-item-light"><a href="https://docs.google.com/uc?export=download&id=11BsbkJHcIA1NIGe3Qb31lOluecJKPDOG">112上-P01-使用說明-ok.m4a</a></li>
-        <li class="list-group-item list-group-item-action list-group-item-light"><a href="https://docs.google.com/uc?export=download&id=13CmLh7_Vwfs9YtQCYVYrF6XtALXWv-N8">112上-p02-德不孤必有鄰-ok.m4a</a></li>
-        <li class="list-group-item list-group-item-action list-group-item-light"><a href="https://docs.google.com/uc?export=download&id=1eP_h-oMGXuS8f2C6YID8HdBGmM75EqR1">112上-P03-歸真園歌-朗讀+唱詞+唱譜.wav</a></li>
-    </ul>
+    <div id="app">
+        <audio id="audioPlayer" controls>
+            <source src="112上-P00-抬頭-已配樂OK.m4a" type="audio/x-m4a">
+        </audio>
+        <ul id="playlist" class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-action list-group-item-light"
+                v-for="itm in lst">
+                <a href="https://docs.google.com/uc?export=download&id=1tvCaDhIBBN_vkfLcLVVPQShlauhICQfO">{{ Title }}</a>
+            </li>
+        </ul>
+    </div>
+    
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
     <script>
         var audioPlayer = document.getElementById("audioPlayer");
         var playlist = document.getElementById("playlist");
@@ -40,6 +38,20 @@
                 audioPlayer.play();
             });
         }
+const app = Vue.createApp({
+    data() {
+        return {
+            audiolist : []
+        }
+    }, 
+    mounted() {
+        fetch ('./SourceData.json')
+           .then(res => res.json())
+           .then(lst => this.audiolist = audiolist)
+    },
+})
+
+app.mount('#app');
     </script>
 
 </body>
