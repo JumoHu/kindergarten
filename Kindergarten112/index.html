@@ -1,4 +1,4 @@
-﻿﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 
 <head>
@@ -127,10 +127,15 @@
                     <input class="form-control" type="text" v-model.lazy="keywd" placeholder="Keyword" v-model="keywd">
                     <ul class="list-group list-group-flush">
                         <li class="list-group-item list-group-item-action list-group-item-light"
-                            v-for="memo in keywdlist" v-on:click="applykeywd(memo);">
-                            <a href="#divpicture" style="text-underline-offset:unset;">{{ memo }} </a>
+                            v-on:click="applykeywd('2023/09/13');">
+                            <a href="#divpicture" style="text-underline-offset:unset;">2023/09/13</a>
+                            <img src="image/new.png" width="25" />
 
-                            <img src="image/new.png" v-show="" width="25" />
+                        </li>
+                        <li class="list-group-item list-group-item-action list-group-item-light"
+                            v-for="VedioType in keywdlist" v-on:click="applykeywd(VedioType);">
+                            <a href="#divpicture" style="text-underline-offset:unset;">{{ VedioType }} </a>
+
                         </li>
                     </ul>
                 </div>
@@ -177,22 +182,19 @@
                 filteredAlbum() {
                     const keywd = this.keywd.trim().toLowerCase();
                     return this.album.filter(photo => {
-                        return keywd.length > 0 && ((keywd.length == 10 && photo.Date.includes(keywd)) || photo.Hashtag.toLowerCase().includes(keywd) || photo.Memo == keywd);
+                        return keywd.length > 0 && ((keywd.length == 10 && photo.Date.includes(keywd)) || photo.Hashtag.toLowerCase().includes(keywd) || photo.Memo == keywd|| photo.VedioType == keywd);
                     })
                 },
                 keywdlist() {
-                    return [...new Set(this.album.map(x => x.Memo))].sort();
+                    return [...new Set(this.album.map(x => x.VedioType))].sort();
                 },
                 newdate() {
                     return [...new Set(this.album.map(x => x.Date))].sort().reverse()[0];
                 }
             },
             methods: {
-                applykeywd: function (memo) {
-                    this.keywd = memo;
-                },
-                showNew: function (ts) {
-                    return ts == '2023/09/08(五)';
+                applykeywd: function (VedioType) {
+                    this.keywd = VedioType;
                 }
             },
             mounted() {
