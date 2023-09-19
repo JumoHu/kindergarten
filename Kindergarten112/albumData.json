@@ -707,6 +707,6 @@
         "VedioType": "1-0. 早晨活動",
         "Memo": "早晨08:10~08:30活動花絮",
         "Hashtag": "C4",
-        "frameURL": "<iframe width=\"265\" src=\"https://www.youtube.com/v/HllewHN96BY/?vq=hd720\" title=\"C0115\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>"
+        "frameURL": "<iframe width=\"265\" src=\"https://www.youtube.com/embed/HllewHN96BY\" title=\"C0115\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>"
     }
 ]
