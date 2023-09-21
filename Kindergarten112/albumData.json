@@ -708,5 +708,25 @@
         "Memo": "早晨08:10~08:30活動花絮",
         "Hashtag": "C4",
         "frameURL": "<iframe width=\"265\" src=\"https://www.youtube.com/embed/HllewHN96BY\" title=\"C0115\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>"
+    },
+    {
+        "Date": "2023/09/20(三)",
+        "URL": "https://www.facebook.com/100000130406313/videos/1064397894552302/",
+        "FileName": "C0023",
+        "Class": "櫻花",
+        "VedioType": "2. 早餐時間到了",
+        "Memo": "早餐時間到了",
+        "Hashtag": "C4",
+        "frameURL": "<iframe src=\"https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2F100000130406313%2Fvideos%2F1064397894552302%2F&show_text=false&width=560&t=0\" width=\"265\" style=\"border:none;overflow:hidden\" scrolling=\"no\" frameborder=\"0\" allowfullscreen=\"true\" allow=\"autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share\" allowFullScreen=\"true\"></iframe>"
+    },
+    {
+        "Date": "2023/09/20(三)",
+        "URL": "https://www.facebook.com/100000130406313/videos/247040827892900/",
+        "FileName": "C0023",
+        "Class": "櫻花",
+        "VedioType": "2. 早餐時間到了",
+        "Memo": "早餐時間到了",
+        "Hashtag": "C4",
+        "frameURL": "<iframe src=\"https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2F100000130406313%2Fvideos%2F247040827892900%2F&show_text=false&width=560&t=0\" width=\"265\" style=\"border:none;overflow:hidden\" scrolling=\"no\" frameborder=\"0\" allowfullscreen=\"true\" allow=\"autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share\" allowFullScreen=\"true\"></iframe>"
     }
 ]
