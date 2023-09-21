@@ -728,5 +728,25 @@
         "Memo": "早餐時間到了",
         "Hashtag": "C4",
         "frameURL": "<iframe src=\"https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2F100000130406313%2Fvideos%2F247040827892900%2F&show_text=false&width=560&t=0\" width=\"265\" style=\"border:none;overflow:hidden\" scrolling=\"no\" frameborder=\"0\" allowfullscreen=\"true\" allow=\"autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share\" allowFullScreen=\"true\"></iframe>"
+    },
+    {
+        "Date": "2023/09/20(三)",
+        "URL": "https://www.facebook.com/100000130406313/videos/271615599081632/",
+        "FileName": "",
+        "Class": "全校",
+        "VedioType": "1-0. 早晨活動",
+        "Memo": "早晨活動花絮-歌曲：一個小不點",
+        "Hashtag": "",
+        "frameURL": "<iframe src=\"https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2F100000130406313%2Fvideos%2F271615599081632%2F&show_text=false&width=560&t=0\" width=\"265\" style=\"border:none;overflow:hidden\" scrolling=\"no\" frameborder=\"0\" allowfullscreen=\"true\" allow=\"autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share\" allowFullScreen=\"true\"></iframe>"
+    },
+    {
+        "Date": "2023/09/20(三)",
+        "URL": "https://www.facebook.com/100000130406313/videos/1007766533681112/",
+        "FileName": "",
+        "Class": "全校",
+        "VedioType": "1-0. 早晨活動",
+        "Memo": "早晨活動花絮-歌曲：1234-動一動",
+        "Hashtag": "",
+        "frameURL": "<iframe src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2F100000130406313%2Fvideos%2F1007766533681112%2F&show_text=false&width=560&t=0" width="265" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>"
     }
 ]
