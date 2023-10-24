@@ -82,9 +82,9 @@
             <div class="col-lg-12">
                 <h1><img src="image/sakura.jpeg" width="50" />112上家庭作業</h1>
                 <hr />
-                <ul style="display:inline;">
-                　<li v-on:click="applykeywd('112上-');">112上家庭作業</li>
-                　<li v-on:click="applykeywd('學庸論語-');">學庸論語</li>
+                <ul>
+                　<li v-on:click="applykeywd('112上-');" style="display:inline;">112上家庭作業</li>
+                　<li v-on:click="applykeywd('學庸論語-');" style="display:inline;">學庸論語</li>
                 </ul>
                 <audio id="audioPlayer" controls>
                     <source src="" type="audio/x-m4a">
@@ -116,7 +116,7 @@
             },
             computed: {
                 filteredAudio() {
-                    return this.album.filter(audio => {
+                    return this.audiolist.filter(audio => {
                         return audio.Title == this.subject;
                     })
                 }
