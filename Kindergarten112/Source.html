@@ -117,7 +117,7 @@
             computed: {
                 filteredAudio() {
                     return this.audiolist.filter(audio => {
-                        return audio.Title == this.subject;
+                        return audio.Title.includes(this.subject);
                     })
                 }
             },
