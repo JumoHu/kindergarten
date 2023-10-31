@@ -1041,6 +1041,16 @@
     },
     {
         "Date": "2023/10/25(三)",
+        "URL": "https://youtu.be/Ix4RUi2FK-A?si=l86DfPVPRynUlYZG",
+        "FileName": "C0171",
+        "Class": "櫻花",
+        "VedioType": "1-1. 遊樂場活動",
+        "Memo": "跑步",
+        "Hashtag": "C4",
+        "frameURL": "<iframe width=\"560\" src=\"https://www.youtube.com/embed/Ix4RUi2FK-A?si=l86DfPVPRynUlYZG\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>"
+    },
+    {
+        "Date": "2023/10/25(三)",
         "URL": "https://www.facebook.com/100000130406313/videos/1303326030312902/",
         "FileName": "C0172",
         "Class": "櫻花",
@@ -1048,5 +1058,55 @@
         "Memo": "遊樂場活動",
         "Hashtag": "C4",
         "frameURL": "<iframe src=\"https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2F100000130406313%2Fvideos%2F1303326030312902%2F&show_text=false&width=560&t=0\" width=\"265\" style=\"border:none;overflow:hidden\" scrolling=\"no\" frameborder=\"0\" allowfullscreen=\"true\" allow=\"autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share\" allowFullScreen=\"true\"></iframe>"
+    },
+    {
+        "Date": "2023/10/25(三)",
+        "URL": "https://youtu.be/5GDoMIoU9RQ?si=Wap7mnnX_zXAUudh",
+        "FileName": "C0174",
+        "Class": "櫻花",
+        "VedioType": "1-1. 遊樂場活動",
+        "Memo": "遊樂場活動",
+        "Hashtag": "C4",
+        "frameURL": "<iframe width=\"560\" src=\"https://youtu.be/5GDoMIoU9RQ?si=Wap7mnnX_zXAUudh\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>"
+    },
+    {
+        "Date": "2023/10/25(三)",
+        "URL": "https://youtu.be/5GDoMIoU9RQ?si=Wap7mnnX_zXAUudh",
+        "FileName": "C0174",
+        "Class": "櫻花",
+        "VedioType": "1-1. 遊樂場活動",
+        "Memo": "遊樂場活動",
+        "Hashtag": "C4",
+        "frameURL": "<iframe width=\"560\" src=\"https://youtu.be/5GDoMIoU9RQ?si=Wap7mnnX_zXAUudh\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>"
+    },
+    {
+        "Date": "2023/10/25(三)",
+        "URL": "https://youtu.be/HxYaTNAP6k8?si=2B1Efte27jgcRPiU",
+        "FileName": "C0181",
+        "Class": "櫻花",
+        "VedioType": "3. 上課囉!",
+        "Memo": "論語1",
+        "Hashtag": "C4",
+        "frameURL": "<iframe width=\"560\" src=\"https://youtu.be/HxYaTNAP6k8?si=2B1Efte27jgcRPiU\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>"
+    },
+    {
+        "Date": "2023/10/25(三)",
+        "URL": "https://youtu.be/W2Ns-jytZVs?si=YOByGjB_Ir-PvVU9",
+        "FileName": "C0182",
+        "Class": "櫻花",
+        "VedioType": "3. 上課囉!",
+        "Memo": "論語3",
+        "Hashtag": "C4",
+        "frameURL": "<iframe width=\"560\" src=\"https://youtu.be/W2Ns-jytZVs?si=YOByGjB_Ir-PvVU9\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>"
+    },
+    {
+        "Date": "2023/10/25(三)",
+        "URL": "https://youtu.be/PEdUDugwJwc?si=_pMXIyoijIdQXa8L",
+        "FileName": "C0185",
+        "Class": "櫻花",
+        "VedioType": "1-2. 教室排隊",
+        "Memo": "上廁所洗手準備吃午餐",
+        "Hashtag": "",
+        "frameURL": "<iframe width=\"560\" src=\"https://youtu.be/PEdUDugwJwc?si=_pMXIyoijIdQXa8L\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>"
     }
 ]
