@@ -1108,5 +1108,45 @@
         "Memo": "上廁所洗手準備吃午餐",
         "Hashtag": "",
         "frameURL": "<iframe width=\"265\" src=\"https://www.youtube.com/embed/PEdUDugwJwc?si=yX9wA2iF7zcBsAvZ\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>"
+    },
+    {
+        "Date": "2023/11/01(三)",
+        "URL": "https://www.facebook.com/100000130406313/videos/320215890633230/",
+        "FileName": "",
+        "Class": "全校",
+        "VedioType": "1-0. 早晨活動",
+        "Memo": "早晨活動花絮-歌曲：1234-動一動",
+        "Hashtag": "C4",
+        "frameURL": "<iframe src=\"https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2F100000130406313%2Fvideos%2F320215890633230%2F&show_text=false&width=560&t=0\" width=\"265\" style=\"border:none;overflow:hidden\" scrolling=\"no\" frameborder=\"0\" allowfullscreen=\"true\" allow=\"autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share\" allowFullScreen=\"true\"></iframe>"
+    },
+    {
+        "Date": "2023/11/02(四)",
+        "URL": "https://www.facebook.com/100000130406313/videos/1781215058987651/",
+        "FileName": "",
+        "Class": "櫻花",
+        "VedioType": "3. 上課囉!",
+        "Memo": "小提琴音樂欣賞1",
+        "Hashtag": "C4",
+        "frameURL": "<iframe src=\"https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2F100000130406313%2Fvideos%2F1781215058987651%2F&show_text=false&width=560&t=0\" width=\"265\" style=\"border:none;overflow:hidden\" scrolling=\"no\" frameborder=\"0\" allowfullscreen=\"true\" allow=\"autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share\" allowFullScreen=\"true\"></iframe>"
+    },
+    {
+        "Date": "2023/11/02(四)",
+        "URL": "https://www.facebook.com/100000130406313/videos/2610973629062919/",
+        "FileName": "",
+        "Class": "櫻花",
+        "VedioType": "3. 上課囉!",
+        "Memo": "認識音符",
+        "Hashtag": "C4",
+        "frameURL": "<iframe src=\"https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2F100000130406313%2Fvideos%2F2610973629062919%2F&show_text=false&width=560&t=0\" width=\"265\" style=\"border:none;overflow:hidden\" scrolling=\"no\" frameborder=\"0\" allowfullscreen=\"true\" allow=\"autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share\" allowFullScreen=\"true\"></iframe>"
+    },
+    {
+        "Date": "2023/11/02(四)",
+        "URL": "https://www.facebook.com/100000130406313/videos/277146058641153/",
+        "FileName": "",
+        "Class": "櫻花",
+        "VedioType": "3. 上課囉!",
+        "Memo": "小提琴音樂欣賞2",
+        "Hashtag": "C4",
+        "frameURL": "<iframe src=\"https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2F100000130406313%2Fvideos%2F277146058641153%2F&show_text=false&width=560&t=0\" width=\"265\" style=\"border:none;overflow:hidden\" scrolling=\"no\" frameborder=\"0\" allowfullscreen=\"true\" allow=\"autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share\" allowFullScreen=\"true\"></iframe>"
     }
 ]
