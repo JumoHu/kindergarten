@@ -1126,7 +1126,7 @@
         "Class": "櫻花",
         "VedioType": "3. 上課囉!",
         "Memo": "小提琴音樂欣賞1",
-        "Hashtag": "C4",
+        "Hashtag": "",
         "frameURL": "<iframe src=\"https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2F100000130406313%2Fvideos%2F1781215058987651%2F&show_text=false&width=560&t=0\" width=\"265\" style=\"border:none;overflow:hidden\" scrolling=\"no\" frameborder=\"0\" allowfullscreen=\"true\" allow=\"autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share\" allowFullScreen=\"true\"></iframe>"
     },
     {
@@ -1136,7 +1136,7 @@
         "Class": "櫻花",
         "VedioType": "3. 上課囉!",
         "Memo": "認識音符",
-        "Hashtag": "C4",
+        "Hashtag": "",
         "frameURL": "<iframe src=\"https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2F100000130406313%2Fvideos%2F2610973629062919%2F&show_text=false&width=560&t=0\" width=\"265\" style=\"border:none;overflow:hidden\" scrolling=\"no\" frameborder=\"0\" allowfullscreen=\"true\" allow=\"autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share\" allowFullScreen=\"true\"></iframe>"
     },
     {
@@ -1146,7 +1146,47 @@
         "Class": "櫻花",
         "VedioType": "3. 上課囉!",
         "Memo": "小提琴音樂欣賞2",
-        "Hashtag": "C4",
+        "Hashtag": "",
         "frameURL": "<iframe src=\"https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2F100000130406313%2Fvideos%2F277146058641153%2F&show_text=false&width=560&t=0\" width=\"265\" style=\"border:none;overflow:hidden\" scrolling=\"no\" frameborder=\"0\" allowfullscreen=\"true\" allow=\"autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share\" allowFullScreen=\"true\"></iframe>"
+    },
+    {
+        "Date": "2023/11/02(四)",
+        "URL": "https://www.facebook.com/100000130406313/videos/245078228555191/",
+        "FileName": "",
+        "Class": "櫻花",
+        "VedioType": "3. 上課囉!",
+        "Memo": "下課休息",
+        "Hashtag": "",
+        "frameURL": "<iframe src=\"https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2F100000130406313%2Fvideos%2F245078228555191%2F&show_text=false&width=560&t=0\" width=\"265\" style=\"border:none;overflow:hidden\" scrolling=\"no\" frameborder=\"0\" allowfullscreen=\"true\" allow=\"autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share\" allowFullScreen=\"true\"></iframe>"
+    },
+    {
+        "Date": "2023/11/02(四)",
+        "URL": "https://www.facebook.com/100000130406313/videos/100000130406313/",
+        "FileName": "",
+        "Class": "櫻花",
+        "VedioType": "3. 上課囉!",
+        "Memo": "妞妞老師講故事",
+        "Hashtag": "",
+        "frameURL": "<iframe src=\"https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2F100000130406313%2Fvideos%2F100000130406313%2F&show_text=false&width=560&t=0\" width=\"265\" style=\"border:none;overflow:hidden\" scrolling=\"no\" frameborder=\"0\" allowfullscreen=\"true\" allow=\"autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share\" allowFullScreen=\"true\"></iframe>"
+    },
+    {
+        "Date": "2023/11/03(五)",
+        "URL": "https://www.facebook.com/100000130406313/videos/268023502907361/",
+        "FileName": "",
+        "Class": "櫻花",
+        "VedioType": "3. 上課囉!",
+        "Memo": "畫胡蘿蔔",
+        "Hashtag": "C4",
+        "frameURL": "<iframe src=\"https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2F100000130406313%2Fvideos%2F268023502907361%2F&show_text=false&width=560&t=0\" width=\"265\" style=\"border:none;overflow:hidden\" scrolling=\"no\" frameborder=\"0\" allowfullscreen=\"true\" allow=\"autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share\" allowFullScreen=\"true\"></iframe>"
+    },
+    {
+        "Date": "2023/11/09(四)",
+        "URL": "https://www.facebook.com/100000130406313/videos/3640422812950111/",
+        "FileName": "",
+        "Class": "櫻花",
+        "VedioType": "6. 放學時間",
+        "Memo": "玩雪花片",
+        "Hashtag": "C4",
+        "frameURL": "<iframe src=\"https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2F100000130406313%2Fvideos%2F3640422812950111%2F&show_text=false&width=560&t=0\" width=\"265\" style=\"border:none;overflow:hidden\" scrolling=\"no\" frameborder=\"0\" allowfullscreen=\"true\" allow=\"autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share\" allowFullScreen=\"true\"></iframe>"
     }
 ]
