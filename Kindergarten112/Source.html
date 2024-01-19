@@ -123,14 +123,15 @@
             },
             methods: {
                 playaudio: function (id, VedioType) {
-                    if (VedioType.includes("學庸論語"))
-                    {
-                        audioPlayer.src = id;
-                    }
-                    else
-                    {
-                        audioPlayer.src = 'https://docs.google.com/uc?export=download&id=' + id;
-                    }
+                    audioPlayer.src = id;
+                    // if (VedioType.includes("學庸論語"))
+                    // {
+                    //     audioPlayer.src = id;
+                    // }
+                    // else
+                    // {
+                    //     audioPlayer.src = 'https://docs.google.com/uc?export=download&id=' + id;
+                    // }
                     audioPlayer.play();
                 },
                 applykeywd: function (VedioType) {
