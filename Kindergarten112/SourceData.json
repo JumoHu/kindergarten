@@ -76,7 +76,7 @@
   },
   {
     "Title": "112上-p15-狗狗的每一天",
-    "Id": "https://jumohu.github.io/kindergarten/Kindergarten112/homework/112上-p15-狗狗的每一天 [低質量].mp3",
+    "Id": "https://jumohu.github.io/kindergarten/Kindergarten112/homework/112上-P15-狗狗的每一天 [低質量].mp3",
     "Id2": "1xo1ho5htsZ5q5DuskahieByUFUCEm_dc"
   },
   {
@@ -163,6 +163,11 @@
     "Title": "112上-p28-英文常語舉要",
     "Id": "https://jumohu.github.io/kindergarten/Kindergarten112/homework/112上-p28-英文常語舉要 [低質量].mp3",
     "Id2": "1_0nOadYkBbif5KPk1a2ItWS1gt7_JBOV"
+  },
+  {
+    "Title": "112上-P29-679句",
+    "Id": "https://jumohu.github.io/kindergarten/Kindergarten112/homework/112上-P29-679句 [低質量].mp3",
+    "Id2": "1CXotkSTuZVe1nZCKFJ1VAtAv99XnzwOi"
   },
   {
     "Title": "112上-p29-英文常語舉要",
@@ -379,5 +384,29 @@
   {
     "Title": "學庸論語-第112頁",
     "Id": "https://jumohu.github.io/kindergarten/Kindergarten112/cd/49.mp3"
+  },
+  {
+    "Title": "小提琴-#75 CONCERT SONG 第一部",
+    "Id": "https://jumohu.github.io/kindergarten/Kindergarten112/violin/#75_1.m4a"
+  },
+  {
+    "Title": "小提琴-#75 CONCERT SONG 第二部",
+    "Id": "https://jumohu.github.io/kindergarten/Kindergarten112/violin/#75_2.m4a"
+  },
+  {
+    "Title": "小提琴-#84 O COME, LITTLE CHILDREN",
+    "Id": "https://jumohu.github.io/kindergarten/Kindergarten112/violin/#84.m4a"
+  },
+  {
+    "Title": "小提琴-#86 D SCALE WALTZ",
+    "Id": "https://jumohu.github.io/kindergarten/Kindergarten112/violin/#86.m4a"
+  },
+  {
+    "Title": "小提琴-#89 FRENCH FOLK SONG",
+    "Id": "https://jumohu.github.io/kindergarten/Kindergarten112/violin/#89.m4a"
+  },
+  {
+    "Title": "小提琴-#91 TRICKY MELODY",
+    "Id": "https://jumohu.github.io/kindergarten/Kindergarten112/violin/#91.m4a"
   }
 ]
