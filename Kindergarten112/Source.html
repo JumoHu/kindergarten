@@ -106,13 +106,23 @@
 
     <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
     <script>
+        var url = location.href;
+        var keywd = "112上-";
+        if (url.indexOf('?') != -1) {
+            var ary = url.split('?')[1].split('&');
 
+            for (i = 0; i <= ary.length - 1; i++) {
+                if (ary[i].split('=')[0] == 'keywd')
+                    keywd = ary[i].split('=')[1];
+            }
+
+        }
         var audioPlayer = document.getElementById("audioPlayer");
         const app = Vue.createApp({
             data() {
                 return {
                     audiolist: [],
-                    subject:"112上-"
+                    subject: keywd
                 }
             },
             computed: {
