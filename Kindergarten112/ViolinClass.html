@@ -85,9 +85,9 @@
                 <audio id="audioPlayer" controls>
                     <source src="" type="audio/x-m4a">
                 </audio>
+                <input type="range" id="speed" name="speed" min="0.5" max="2" value="1" step="0.25" />
+                <label for="speed">速度</label>
                 <div id="app">
-                    <input type="range" id="speed" name="speed" min="0.5" max="2" value="1" step="0.25" />
-                    <label for="speed">速度</label>
                     <ul>
                     　<li v-on:click="applykeywd('小提琴-');" style="display:inline;">東瀛老師</li>
                     　<li v-on:click="applykeywd('鋼琴伴奏-');" style="display:inline;">鋼琴伴奏</li>
