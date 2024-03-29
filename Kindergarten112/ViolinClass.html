@@ -127,15 +127,7 @@
             methods: {
                 playaudio: function (id, VedioType) {
                     audioPlayer.src = id;
-                    audioPlayer.playbackRate = 2; 
-                    // if (VedioType.includes("學庸論語"))
-                    // {
-                    //     audioPlayer.src = id;
-                    // }
-                    // else
-                    // {
-                    //     audioPlayer.src = 'https://docs.google.com/uc?export=download&id=' + id;
-                    // }
+                    audioPlayer.playbackRate = slider.value; 
                     audioPlayer.play();
                 },
                 applykeywd: function (VedioType) {
