@@ -72,13 +72,6 @@
                 }
             }).scroll();
         });
-        var slider = document.getElementById("speed");
-        var audioPlayer = document.getElementById("audioPlayer");
-        audioPlayer.playbackRate = slider.value; 
-        
-        slider.oninput = function() {
-          audioPlayer.playbackRate = this.value;
-        }
     </script>
 </head>
 
@@ -92,9 +85,9 @@
                 <audio id="audioPlayer" controls>
                     <source src="" type="audio/x-m4a">
                 </audio>
-                <input type="range" id="speed" name="speed" min="0.5" max="2" value="1" step="0.25" />
-                <label for="speed">速度</label>
                 <div id="app">
+                    <input type="range" id="speed" name="speed" min="0.5" max="2" value="1" step="0.25" />
+                    <label for="speed">速度</label>
                     <ul>
                     　<li v-on:click="applykeywd('小提琴-');" style="display:inline;">東瀛老師</li>
                     　<li v-on:click="applykeywd('鋼琴伴奏-');" style="display:inline;">鋼琴伴奏</li>
@@ -116,6 +109,7 @@
     <script>
 
         var audioPlayer = document.getElementById("audioPlayer");
+        var slider = document.getElementById("speed");
         const app = Vue.createApp({
             data() {
                 return {
@@ -133,6 +127,8 @@
             methods: {
                 playaudio: function (id, VedioType) {
                     audioPlayer.src = id;
+                    audioPlayer.playbackRate = slider.value; 
+                    audioPlayer.playbackRate
                     // if (VedioType.includes("學庸論語"))
                     // {
                     //     audioPlayer.src = id;
