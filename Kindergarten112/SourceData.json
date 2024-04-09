@@ -749,5 +749,15 @@
     "Title": "表演曲目-#129 SHE'LL BE COMIN' 'ROUNC THE MOUNTAIN(X1.5)",
     "Id": "https://jumohu.github.io/kindergarten/Kindergarten112/violin/No129伴奏.m4a",
     "speed" : "1.5"
+  },
+  {
+    "Title": "表演曲目-#128 CZECH FOLK SONG(X2)",
+    "Id": "https://jumohu.github.io/kindergarten/Kindergarten112/violin/No128.m4a",
+    "speed" : "2"
+  },
+  {
+    "Title": "表演曲目-#129 SHE'LL BE COMIN' 'ROUND THE MOUNTAIN(tempo 60X2)",
+    "Id": "https://jumohu.github.io/kindergarten/Kindergarten112/violin/No129(tempo 60).m4a",
+    "speed" : "2"
   }
 ]
