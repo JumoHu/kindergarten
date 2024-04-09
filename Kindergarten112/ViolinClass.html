@@ -89,10 +89,11 @@
                     <ul>
                     　<li v-on:click="applykeywd('小提琴-');" style="display:inline;">東瀛老師</li>
                     　<li v-on:click="applykeywd('鋼琴伴奏-');" style="display:inline;">鋼琴伴奏</li>
+                    　<li v-on:click="applykeywd('表演曲目-');" style="display:inline;">表演曲目</li>
                     </ul>
                     <ul id="playlist" class="list-group list-group-flush">
                         <li class="list-group-item list-group-item-action list-group-item-light"
-                            v-for="itm in filteredAudio" v-on:click="playaudio(itm.Id, itm.Title);">
+                            v-for="itm in filteredAudio" v-on:click="playaudio(itm.Id, itm.Title, itm.speed);">
                             <audiotmp :source_data="itm"></audiotmp>
                         </li>
                     </ul>
@@ -122,8 +123,9 @@
                 }
             },
             methods: {
-                playaudio: function (id, VedioType) {
+                playaudio: function (id, VedioType, speed) {
                     audioPlayer.src = id;
+                    audioPlayer.playbackRate = speed
                     audioPlayer.play();
                 },
                 applykeywd: function (VedioType) {
