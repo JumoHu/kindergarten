@@ -701,13 +701,53 @@
     "speed" : "1"
   },
   {
-    "Title": "鋼琴伴奏-#91 TRICKY MELODY(快版)",
+    "Title": "表演曲目-#91 TRICKY MELODY(快版)",
     "Id": "https://jumohu.github.io/kindergarten/Kindergarten112/violin/No91伴奏(快).m4a",
     "speed" : "1"
   },
   {
-    "Title": "鋼琴伴奏-#91 TRICKY MELODY(快版X1.25)",
+    "Title": "表演曲目-#91 TRICKY MELODY(快版X1.25)",
     "Id": "https://jumohu.github.io/kindergarten/Kindergarten112/violin/No91伴奏(快).m4a",
     "speed" : "1.25"
+  },
+  {
+    "Title": "表演曲目-#104 TWO STEP MARCH(快版)",
+    "Id": "https://jumohu.github.io/kindergarten/Kindergarten112/violin/No104伴奏(快).m4a",
+    "speed" : "1"
+  },
+  {
+    "Title": "表演曲目-#126 CONCERT TRIO",
+    "Id": "https://jumohu.github.io/kindergarten/Kindergarten112/violin/No126伴奏.m4a",
+    "speed" : "1"
+  },
+  {
+    "Title": "表演曲目-#128 CZECH FOLK SONG",
+    "Id": "https://jumohu.github.io/kindergarten/Kindergarten112/violin/No128伴奏.m4a",
+    "speed" : "1"
+  },
+  {
+    "Title": "表演曲目-#128 CZECH FOLK SONG(X1.25)",
+    "Id": "https://jumohu.github.io/kindergarten/Kindergarten112/violin/No128伴奏.m4a",
+    "speed" : "1.25"
+  },
+  {
+    "Title": "表演曲目-#128 CZECH FOLK SONG(X1.5)",
+    "Id": "https://jumohu.github.io/kindergarten/Kindergarten112/violin/No128伴奏.m4a",
+    "speed" : "1.5"
+  },
+  {
+    "Title": "表演曲目-#129 SHE'LL BE COMIN' 'ROUNC THE MOUNTAIN",
+    "Id": "https://jumohu.github.io/kindergarten/Kindergarten112/violin/No129伴奏.m4a",
+    "speed" : "1"
+  },
+  {
+    "Title": "表演曲目-#129 SHE'LL BE COMIN' 'ROUNC THE MOUNTAIN(X1.25)",
+    "Id": "https://jumohu.github.io/kindergarten/Kindergarten112/violin/No129伴奏.m4a",
+    "speed" : "1.25"
+  },
+  {
+    "Title": "表演曲目-#129 SHE'LL BE COMIN' 'ROUNC THE MOUNTAIN(X1.5)",
+    "Id": "https://jumohu.github.io/kindergarten/Kindergarten112/violin/No129伴奏.m4a",
+    "speed" : "1.5"
   }
 ]
