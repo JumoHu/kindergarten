@@ -80,7 +80,7 @@
         <div class="row" style="position: relative;">
             
             <div class="col-lg-12">
-                <h1><img src="image/sakura.jpeg" width="50" />112上家庭作業</h1>
+                <h1><img src="image/sakura.jpeg" width="50" />家庭作業</h1>
                 <hr />
                 <audio id="audioPlayer" controls>
                     <source src="" type="audio/x-m4a">
@@ -89,6 +89,7 @@
                     <ul>
                     　<li v-on:click="applykeywd('112上-');" style="display:inline;">112上家庭作業</li>
                     　<li v-on:click="applykeywd('學庸論語-');" style="display:inline;">學庸論語</li>
+                    　<li v-on:click="applykeywd('113上-');" style="display:inline;">113上家庭作業</li>
                     　<li v-on:click="applykeywd('小提琴-');" style="display:inline;">小提琴</li>
                     </ul>
                     <ul id="playlist" class="list-group list-group-flush">
@@ -107,7 +108,7 @@
     <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
     <script>
         var url = location.href;
-        var keywd = "112上-";
+        var keywd = "113上-";
         if (url.indexOf('?') != -1) {
             var ary = url.split('?')[1].split('&');
 
