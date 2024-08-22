@@ -1195,8 +1195,18 @@
         "FileName": "",
         "Class": "櫻花",
         "VedioType": "3. 上課囉!",
-        "Memo": "排隊領小提琴",
+        "Memo": "排排隊",
         "Hashtag": "C4",
         "frameURL": "<video src=\"https://jumohu.github.io/kindergarten/Kindergarten112/albumn/2024-08-22-1.mp4\" height=\"314\" autoplay=\"false\" controls=\"true\"></video>"
+    },
+    {
+        "Date": "2024/08/22(四)",
+        "URL": "",
+        "FileName": "",
+        "Class": "櫻花",
+        "VedioType": "3. 上課囉!",
+        "Memo": "運球高手是你?",
+        "Hashtag": "C4",
+        "frameURL": "<video src=\"https://jumohu.github.io/kindergarten/Kindergarten112/albumn/2024-08-22-2.mp4\" height=\"314\" autoplay=\"false\" controls=\"true\"></video>"
     }
 ]
