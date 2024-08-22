@@ -1197,6 +1197,6 @@
         "VedioType": "3. 上課囉!",
         "Memo": "排隊領小提琴",
         "Hashtag": "C4",
-        "frameURL": "<video src=\"albumn/2024-08-22-1.mp4" poster="picture/cat.jpg" height="314" autoplay="false" controls="true" </video>"
+        "frameURL": "<video src=\"albumn/2024-08-22-1.mp4" height="314" autoplay="false" controls="true"></video>"
     }
 ]
