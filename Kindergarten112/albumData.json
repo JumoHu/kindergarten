@@ -1188,5 +1188,15 @@
         "Memo": "玩雪花片",
         "Hashtag": "C4",
         "frameURL": "<iframe src=\"https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2F100000130406313%2Fvideos%2F3640422812950111%2F&show_text=false&width=560&t=0\" width=\"265\" style=\"border:none;overflow:hidden\" scrolling=\"no\" frameborder=\"0\" allowfullscreen=\"true\" allow=\"autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share\" allowFullScreen=\"true\"></iframe>"
+    },
+    {
+        "Date": "2024/08/22(四)",
+        "URL": "",
+        "FileName": "",
+        "Class": "櫻花",
+        "VedioType": "3. 上課囉!",
+        "Memo": "排隊領小提琴",
+        "Hashtag": "C4",
+        "frameURL": "<video src="Kindergarten112/albumn/2024-08-22-1.mp4" poster="picture/cat.jpg" height="314" autoplay="false" controls="true" </video>"
     }
 ]
